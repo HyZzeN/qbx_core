@@ -7,7 +7,7 @@ return {
     characters = {
         useExternalCharacters = false, -- Whether you have an external character management resource. (If true, disables the character management inside the core)
         enableDeleteButton = true, -- Whether players should be able to delete characters themselves.
-        startingApartment = true, -- If set to false, skips apartment choice in the beginning (requires qbx_spawn if true)
+        startingApartment = false, -- If set to false, skips apartment choice in the beginning (requires qbx_spawn if true)
 
         dateFormat = 'YYYY-MM-DD',
         dateMin = '1900-01-01', -- Has to be in the same format as the dateFormat config
@@ -52,7 +52,7 @@ return {
     },
 
     discord = {
-        enabled = true, -- This will enable or disable the built in discord rich presence.
+        enabled = false, -- This will enable or disable the built in discord rich presence.
 
         appId = '1024981890798731345', -- This is the Application ID (Replace this with you own)
 
