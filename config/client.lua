@@ -79,6 +79,7 @@ return {
 
     --- Only used by QB bridge
     hasKeys = function(plate, vehicle)
-        return exports.qbx_vehiclekeys:HasKeys(vehicle)
+        --return exports.qbx_vehiclekeys:HasKeys(vehicle)
+        --return exports.mVehicle.AddTemporalVehicleClient(vehicle)
     end,
 }
