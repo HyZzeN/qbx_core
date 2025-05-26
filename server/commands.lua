@@ -158,7 +158,8 @@ lib.addCommand('car', {
     })
 
     local plate = qbx.getVehiclePlate(vehicle)
-    config.giveVehicleKeys(source, plate, vehicle)
+    --config.giveVehicleKeys(source, plate, vehicle)
+    exports.mVehicle:AddTemporalVehicle(source, vehicle)
 end)
 
 lib.addCommand('dv', {
